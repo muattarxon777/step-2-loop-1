@@ -1,0 +1,119 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: rgb(255, 100, 150);
+}
+.sitenav{
+  width: 1160px;
+  margin-left: 180px;
+  margin-right: auto;
+  margin-top: 100px;
+  flex-direction: column;
+}
+.sitenav-links{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+.sitenav-link{
+  text-decoration: none;
+  color: #fff;
+}
+.sitenav-link:not(:first-child){
+  color: rgba(225, 225, 225);
+}
+.sitenav-link:not(:last-child){
+  margin-right: 80px;
+}
+.sitenav-link-h1{
+  font-size: 60px;
+  font-family: sans-serif;
+}
+.sitenav-link-h1:hover{
+  color: rgb( 238, 238, 238);
+}
+.sitenav-p{
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 800px;
+  margin-top: 0;
+}
+
+/* SITE-MAIN */
+.site-main{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 100, 150);
+}
+.site-main-div{
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.site-main-div-sections{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.site-main-div-b1{
+  width: 90px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 172, 187);
+  border: none;
+}
+.site-main-div-b1:hover{
+  background-color: pink;
+}
+.site-main-div-section{
+  width: 30%;
+  color: #fff;
+  height: 300px;
+}
+.section1{
+  background-color: rgb(109, 109, 109);
+}
+.section2{
+  background-color: rgb(77, 77, 77);
+}
+.section3{
+  background-color: #000;
+}
+.site-main-div-section-p{
+  text-align: center;
+  margin-top: 120px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #ff6496;
+  margin-bottom: 0;
+}
+.site-main-div-section-h3{
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  margin-top: 5px;
+}
+.site-main-div-btn{
+  width: 240px;
+  margin-left: 9%;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  z-index: 1;
+  margin-top: -25px;
+  position: absolute;
+}
+.site-main-div-btn:active{
+  margin-top: -28px;
+  transition: 0.1s;
+}
